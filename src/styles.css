@@ -1,0 +1,42 @@
+/* CSS module */
+
+body{
+	display: flex;
+	justify-content: center;
+	box-sizing: border-box;
+}
+
+.container{
+	min-width: 50%;
+}
+
+
+#input{
+	min-width: 100%;
+	padding: 10px 0px 10px 10px;
+	border: 1px solid tomato;
+}
+
+.search-bar{
+	background-color: black;
+	padding: 0px 12px 0 0;
+}
+
+
+#search-results{
+	min-width: 100%;
+	box-sizing: border-box;
+}
+
+#search-results > a{
+	display: block;
+	padding-left: 10px;
+	max-width: 100%;
+	border: 1px solid black;
+}
+
+#search-results > a:hover{
+	background-color:  #f2f2f2;
+}
+
+

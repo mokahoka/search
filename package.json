@@ -1,0 +1,15 @@
+{
+  "name": "assig",
+  "version": "1.0.0",
+  "description": "a api server for serving cites names",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayank Kathuria",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
