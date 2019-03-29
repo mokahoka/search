@@ -42,6 +42,7 @@ function appendArrToNode(arr,node){
 						addToCache(val)
 						searchResults.style.display = "none";
 					})
+					link.classList.add("results-item")
 					link.appendChild(para)
 					node.appendChild(link);
 
